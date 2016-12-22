@@ -1,5 +1,5 @@
-local rest = require('litcord.client.rest')
-local Socket = require('litcord.client.Socket')
+local rest = include('litcord/client/rest.lua')
+local Socket = include('litcord/client/Socket.lua')
 
 local Client = class(utils.Events)
 

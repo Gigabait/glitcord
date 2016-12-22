@@ -1,4 +1,4 @@
-local WebSocket = require('websocket').client.sync
+local WebSocket = include('gwebsocket.lua').client.sync
 
 local Socket = class(utils.Events)
 
